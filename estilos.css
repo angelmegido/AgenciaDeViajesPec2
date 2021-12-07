@@ -6,6 +6,7 @@ body {
     background-color:black;
     padding: 25px;
     width:85%;
+    font-size: large;
     }
     article {
     font-family: "Helvetica";
@@ -43,7 +44,7 @@ body {
     -ms-transform: translate(-50%, -50%);
     background-color: black;
     color: white;
-    font-size: 10px;
+    font-size: 12px;
     padding: 10px 10px;
     border: none;
     cursor: pointer;
@@ -110,3 +111,6 @@ body {
     a{
       color: #fff;
    }
+   p {
+    font-size: large;
+ }
