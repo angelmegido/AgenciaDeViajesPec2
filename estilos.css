@@ -1,3 +1,8 @@
+* {
+  /* Calculation */
+  --diff: calc(var(--max-size) - var(--min-size));
+  --responsive: calc((var(--min-size) * 1px) + var(--diff) * ((100vw - 420px) / (1200 - 420))); /* Ranges from 421px to 1199px */
+}
 body {
     font-family: "Helvetica";
     text-align: center;
@@ -15,7 +20,7 @@ body {
     margin: auto;
     background-color:black;
     padding: 10px;
-    width:52%;
+    width:72%;
     }
   .portada{
     position: relative;
@@ -112,5 +117,7 @@ body {
       color: #fff;
    }
    p {
-    font-size: large;
+    --max-size: 20;
+    --min-size: 18;
+    font-size: var(--responsive);
  }
