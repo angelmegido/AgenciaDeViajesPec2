@@ -33,3 +33,10 @@ body {
     height: 100%;
     border: 0cm; 
   }
+  header nav img{
+    width: 5%;
+  }
+  header h1 {
+    text-align: center;
+    margin: auto;
+      }

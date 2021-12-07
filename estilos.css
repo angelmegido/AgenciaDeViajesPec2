@@ -83,7 +83,8 @@ body {
       .menuNavegacion
      {
       color: #ff1616;
-          }
+      text-align: center
+                }
      .Otros{
       font-family:'Courier New', Courier, monospace;
       padding-top: 100px;
@@ -121,3 +122,10 @@ body {
     --min-size: 18;
     font-size: var(--responsive);
  }
+ header nav img{
+  width: 5%;
+}
+header h1 {
+  text-align: center;
+  margin: auto;
+    }
