@@ -122,10 +122,54 @@ body {
     --min-size: 18;
     font-size: var(--responsive);
  }
- header nav img{
+ header img{
   width: 5%;
 }
 header h1 {
   text-align: center;
   margin: auto;
+    }
+    .pie {
+      width: 80%;
+      color: white;
+      --max-size: 20;
+    --min-size: 10;
+    font-size: var(--responsive);
+      list-style-type: none;
+      margin-top: 200px;
+      padding: 20px;
+      margin-left: auto; 
+      margin-right: auto;
+      justify-content: space-between;
+      display:flex;
+      font-family:'Courier New', Courier, monospace;
+    }
+    footer img {
+      width: 80px;
+      padding-bottom: 35px;
+    }
+
+    @keyframes cohete2 {
+      0% {
+        transform: rotate(0deg);
+             }
+      20% {
+        transform: rotate(-5deg);
+              }
+      40% {
+        transform: scale(5deg);
+      }
+      60% {
+        transform: rotate(0deg);
+             }
+      80% {
+        transform: rotate(-5deg);
+              }
+      100% {
+        transform: scale(0deg);
+      }
+    }
+    
+    #cohete2{
+      animation: cohete2 2s linear infinite;
     }

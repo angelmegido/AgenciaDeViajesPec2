@@ -10,7 +10,7 @@ body {
     margin: auto;
     background-color:black;
     padding: 25px;
-    }
+        }
    
   .menu
   {
@@ -50,3 +50,67 @@ body {
     ul li {
       padding-bottom: 25px;
     }
+    .pie {
+      width: 80%;
+      color: white;
+      --max-size: 20;
+    --min-size: 10;
+    font-size: var(--responsive);
+      list-style-type: none;
+      margin-top: 200px;
+      padding: 20px;
+      margin-left: auto; 
+      margin-right: auto;
+      justify-content: space-between;
+      display:flex;
+      font-family:'Courier New', Courier, monospace;
+      text-align: bottom;
+    }
+    footer img {
+      width: 80px;
+      padding-bottom: 35px;
+    }
+    footer{
+      text-align: bottom;
+    }
+
+@keyframes cohete {
+  0.0%{
+      transform: scale(0.5) translate(-100px, 0) skew(0deg);
+      opacity: 0;
+  }
+  20.0%{
+    transform: scale(0.5) translate(-100px, 0) skew(0deg);
+    opacity: 1;
+}
+  39.9%{
+      transform: scale(2) translate(100px, 0) skew(-5deg);
+  }
+  45.3%{
+      transform: scale(2) translate(100px, -0px) skew(+5deg);
+  }
+  5.1%{
+      transform: scale(0.5) translate(-100px, 0) skew(-12deg);
+  }
+  50.3%{
+      transform: scale(2) translate(100px, 0px) skew(0deg);
+  }
+  55.3%{
+      transform: scale(2) translate(100px, -0px) skew(-5deg);
+  }
+  60.3%{
+      transform: scale(2) translate(100px, 0px) skew(5deg);
+  }
+  95.1%{
+    transform: scale(3) translate(100px, 0) skew(-5deg);
+    
+}
+99.6%{
+    transform: scale(1) translate(-100px, 0) skew(0deg);
+    opacity: 0;
+}
+}
+
+#cohete{
+  animation: cohete 10s ease-in-out 0s;
+}

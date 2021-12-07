@@ -10,5 +10,6 @@ node_modules
 # Ignora archivos de configuración SASS
 .sass-cache
 
-# Ignora archivos de configuración parcel-cache
-.parcel-cache
+# Ignora archivos de configuración parcel
+dist/
+.parcel-cache/
