@@ -84,25 +84,25 @@ body {
     opacity: 1;
 }
   39.9%{
-      transform: scale(2) translate(100px, 0) skew(-5deg);
+      transform: scale(1) translate(100px, 0) skew(-5deg);
   }
   45.3%{
       transform: scale(2) translate(100px, -0px) skew(+5deg);
   }
-  5.1%{
-      transform: scale(0.5) translate(-100px, 0) skew(-12deg);
+  50.1%{
+      transform: scale(2) translate(120px, 0) skew(-12deg);
   }
-  50.3%{
+  59.3%{
       transform: scale(2) translate(100px, 0px) skew(0deg);
   }
-  55.3%{
+  65.3%{
       transform: scale(2) translate(100px, -0px) skew(-5deg);
   }
-  60.3%{
+  70.3%{
       transform: scale(2) translate(100px, 0px) skew(5deg);
   }
   95.1%{
-    transform: scale(3) translate(100px, 0) skew(-5deg);
+    transform: scale(2) translate(100px, 0) skew(-5deg);
     
 }
 99.6%{
@@ -114,3 +114,9 @@ body {
 #cohete{
   animation: cohete 10s ease-in-out 0s;
 }
+
+.circle {
+  clip-path: ellipse(50% 50% at 50% 50%);
+  width: 40%;
+}
+
