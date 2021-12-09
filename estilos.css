@@ -164,7 +164,7 @@ header h1 {
         transform: rotate(-5deg);
               }
       40% {
-        transform: scale(5deg);
+        transform: rotate(5deg);
       }
       60% {
         transform: rotate(0deg);
@@ -173,7 +173,7 @@ header h1 {
         transform: rotate(-5deg);
               }
       100% {
-        transform: scale(0deg);
+        transform: rotate(0deg);
       }
     }
     

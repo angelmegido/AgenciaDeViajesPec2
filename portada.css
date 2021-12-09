@@ -65,7 +65,6 @@ body {
       justify-content: space-between;
       display:flex;
       font-family:'Courier New', Courier, monospace;
-      text-align: bottom;
     }
     @media screen and (max-width: 700px) {
       .pie {
@@ -75,9 +74,6 @@ body {
     footer img {
       width: 80px;
       padding-bottom: 35px;
-    }
-    footer{
-      text-align: bottom;
     }
 
 @keyframes cohete {
