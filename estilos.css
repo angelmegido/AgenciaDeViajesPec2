@@ -125,7 +125,7 @@ body {
     font-size: var(--responsive);
  }
  header img{
-  width: 5%;
+  width: 150px;
 }
 header h1 {
   text-align: center;
