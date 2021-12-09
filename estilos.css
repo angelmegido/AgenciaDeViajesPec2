@@ -25,6 +25,7 @@ body {
   .portada{
     position: relative;
     width: 100%;
+    height: auto;
     max-width: 1000px;
     border-radius: 10px;
   }
@@ -113,13 +114,14 @@ body {
       margin: 0 auto;
       max-width: 1500px;
       width: 60%;
+      height: auto;
     }
     a{
       color: #fff;
    }
    p {
-    --max-size: 28;
-    --min-size: 26;
+    --max-size: 22;
+    --min-size: 24;
     font-size: var(--responsive);
  }
  header img{
