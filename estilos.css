@@ -146,6 +146,11 @@ header h1 {
       display:flex;
       font-family:'Courier New', Courier, monospace;
     }
+    @media screen and (max-width: 700px) {
+      .pie {
+        display:list-item;
+      }
+    }
     footer img {
       width: 80px;
       padding-bottom: 35px;

@@ -66,6 +66,11 @@ body {
       font-family:'Courier New', Courier, monospace;
       text-align: bottom;
     }
+    @media screen and (max-width: 700px) {
+      .pie {
+        display:list-item;
+      }
+    }
     footer img {
       width: 80px;
       padding-bottom: 35px;
@@ -87,19 +92,19 @@ body {
       transform: scale(1) translate(100px, 0) skew(-5deg);
   }
   45.3%{
-      transform: scale(2) translate(100px, -0px) skew(+5deg);
+      transform: scale(1) translate(100px, -0px) skew(+5deg);
   }
   50.1%{
-      transform: scale(2) translate(120px, 0) skew(-12deg);
+      transform: scale(1) translate(120px, 0) skew(-12deg);
   }
   59.3%{
-      transform: scale(2) translate(100px, 0px) skew(0deg);
+      transform: scale(1) translate(100px, 0px) skew(0deg);
   }
   65.3%{
-      transform: scale(2) translate(100px, -0px) skew(-5deg);
+      transform: scale(1) translate(100px, -0px) skew(-5deg);
   }
   70.3%{
-      transform: scale(2) translate(100px, 0px) skew(5deg);
+      transform: scale(1) translate(100px, 0px) skew(5deg);
   }
   95.1%{
     transform: scale(2) translate(100px, 0) skew(-5deg);
@@ -115,8 +120,9 @@ body {
   animation: cohete 10s ease-in-out 0s;
 }
 
-.circle {
+.animate__animated {
   clip-path: ellipse(50% 50% at 50% 50%);
-  width: 60%;
-}
+  width: 45%;
+  --animate-duration: 4s;
+  }
 
