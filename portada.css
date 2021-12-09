@@ -10,7 +10,6 @@ body {
     margin: auto;
     background-color:black;
     padding: 25px;
-    max-width: 1200px;
         }
    
   .menu
@@ -119,7 +118,7 @@ body {
 
 .animate__animated {
   clip-path: ellipse(50% 50% at 50% 50%);
-  width: 45%;
+  width: 40%;
   --animate-duration: 4s;
   }
 
