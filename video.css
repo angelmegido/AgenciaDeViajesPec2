@@ -74,3 +74,6 @@ body {
           display:none;
         }
       }
+      header img {
+        width: 5%;
+      }

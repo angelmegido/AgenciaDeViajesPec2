@@ -10,6 +10,7 @@ body {
     margin: auto;
     background-color:black;
     padding: 25px;
+    max-width: 1200px;
         }
    
   .menu
