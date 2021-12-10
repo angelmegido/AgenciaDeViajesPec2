@@ -27,9 +27,21 @@
 <h1>La Tierra es un planeta del sistema solar que gira alrededor del Sol. Es el más denso y el quinto mayor de los ocho planetas del sistema solar.</h1>
   <p>¿Quiere ir a la Tierra?</p>
 <div class="container">
-  <img srcset="img/tierra300w.jpg 300w, img/tierra600w.jpg 600w, img/tierra1000w.jpg 1000w" sizes="(max-width: 320px) 300px,
-        (max-width: 600px) 600px,
-        800px" src="img/tierra1000w.jpg" alt="Tierra en color">
+  <picture>
+          <source media="print" srcset="img/tierra300w.jpg">
+        
+          <source media="(max-width: 480px)"
+                  srcset="img/tierra300w.jpg">
+        
+          <source media="(max-width: 640px)"
+                  srcset="img/tierra600w.jpg">
+        
+          <source media="(max-width: 1024px)"
+                  srcset="img/tierra1000w.jpg">
+        
+          <img src="img/tierra1000w.jpg"
+                  alt="El planeta Tierra en color">
+        </picture>
   <button class="btn" onclick="confirmacion()">Viajar</button>
 </div>
 <h1>Conozca mejor la Tierra</h1>
