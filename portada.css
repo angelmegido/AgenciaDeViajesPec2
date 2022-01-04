@@ -115,11 +115,13 @@ body {
 
 #cohete{
   animation: cohete 10s ease-in-out 0s;
+  animation-delay: 1500ms;
 }
 
 .animate__animated {
   clip-path: ellipse(50% 50% at 50% 50%);
   width: 40%;
   --animate-duration: 4s;
+  animation-delay: 1500ms;
   }
 
