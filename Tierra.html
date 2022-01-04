@@ -4,7 +4,8 @@
   <title>La Tierra</title>
   <link rel="icon" type="image/vnd.microsoft.icon" href="https://cdn-icons-png.flaticon.com/512/2909/2909653.png" sizes="32x32">
     <meta charset="utf-8">
-    <script src="confirmacion.js" ></script>
+    <meta name="viewport" content="width=device-width">
+    <script src="confirmacion.js" async="async"></script>
     <link rel="stylesheet" href="estilos.css">
     <link rel="stylesheet" href="https://use.fontawesome.com/releases/v5.8.1/css/all.css" integrity="sha384-50oBUHEmvpQ+1lW4y57PTFmhCaXp0ML5d60M1M7uH2+nqUivzIebhndOJK28anvf" crossorigin="anonymous">
 </head>
@@ -13,6 +14,7 @@
     <img srcset="img/LogoCohete300.png 1x,
     img/LogoCohete.png 2x"
    src="img/LogoCohete.png"
+   loading="lazy"
    alt="Logo de un cohete">
     <nav>
       <h2>Agencia de viajes estelares</h2>
@@ -28,19 +30,19 @@
   <p>¿Quiere ir a la Tierra?</p>
 <div class="container">
   <picture>
-          <source media="print" srcset="img/tierra300w.jpg">
+          <source media="print" srcset="img/tierra300w.webp">
         
           <source media="(max-width: 480px)"
-                  srcset="img/tierra300w.jpg">
+                  srcset="img/tierra300w.webp">
         
           <source media="(max-width: 640px)"
-                  srcset="img/tierra600w.jpg">
+                  srcset="img/tierra600w.webp">
         
           <source media="(max-width: 1024px)"
-                  srcset="img/tierra1000w.jpg">
+                  srcset="img/tierra1000w.webp">
         
-          <img src="img/tierra1000w.jpg"
-                  alt="El planeta Tierra en color">
+          <img src="img/tierra1000w.webp"
+          loading="lazy" alt="El planeta Tierra en color">
         </picture>
   <button class="btn" onclick="confirmacion()">Viajar</button>
 </div>
@@ -74,26 +76,26 @@
   detalles sin precedentes. También incluye más de mil islas de la Polinesia y la Melanesia en el Pacífico sur, así como islas del Índico y el Atlántico. Muchas
    de esas islas apenas se levantan unos metros sobre el nivel del mar y son muy vulnerables a los efectos de las marejadas y tormentas, por lo que su conocimiento
     ayudará a evitar catástrofes; los datos proporcionados por la misión del Endeavour tendrán una amplia variedad de usos, como la exploración virtual del planeta</p>
-    <img srcset="img/320px-Whole_world_-_land_and_oceans_12000.jpg 300w, img/640px-Whole_world_-_land_and_oceans_12000.jpg 600w,
-     img/1024px-Whole_world_-_land_and_oceans_12000.jpg 1000w" sizes="(max-width: 320px) 300px,
-    (max-width: 600px) 600px,
-    800px" src="img/1024px-Whole_world_-_land_and_oceans_12000.jpg" alt="Imagen satelital de la tierra">
+    <img srcset="img/320px-Whole_world_-_land_and_oceans_12000.webp 300w, img/640px-Whole_world_-_land_and_oceans_12000.webp 600w,
+     img/1024px-Whole_world_-_land_and_oceans_12000.webp 1000w" sizes="(max-width: 320px) 300px,
+     (max-width: 600px) 600px,
+     800px" src="img/1024px-Whole_world_-_land_and_oceans_12000.webp" loading="lazy" alt="Imagen satelital de la tierra">
     <h2>Atmósfera</h2>
-    <p>La presión atmosférica media al nivel del mar se sitúa en torno a los 101,325 kPa, con una escala de altura de aproximadamente 8,5 km.​ Está compuesta 
+    <p>La presión atmosférica media al nivel del mar se sitúa en torno a los 101,325 kPa, con una escala de altura de aproximadamente 8,5 km. Está compuesta 
       principalmente de un 78 % de nitrógeno y un 21 % de oxígeno, con trazas de vapor de agua, dióxido de carbono y otras moléculas gaseosas. La altura de la 
       troposfera varía con la latitud, entre 8 km en los polos y 17 km en el ecuador, con algunas variaciones debido a la climatología y los factores estacionales.
       La biosfera de la Tierra ha alterado significativamente la atmósfera. La fotosíntesis oxigénica evolucionó hace 2700 millones de años, formando 
       principalmente la atmósfera actual de nitrógeno-oxígeno. Este cambio permitió la proliferación de los organismos aeróbicos, así como la formación 
       de la capa de ozono que bloquea la radiación ultravioleta proveniente del Sol, permitiendo la vida fuera del agua. Otras funciones importantes de 
       la atmósfera para la vida en la Tierra incluyen el transporte de vapor de agua, proporcionar gases útiles, quemar los meteoritos pequeños antes de 
-      que alcancen la superficie, y moderar la temperatura.118​ Este último fenómeno se conoce como el efecto invernadero: trazas de moléculas presentes en 
+      que alcancen la superficie, y moderar la temperatura. Este último fenómeno se conoce como el efecto invernadero: trazas de moléculas presentes en 
       la atmósfera capturan la energía térmica emitida desde el suelo, aumentando así la temperatura media. El dióxido de carbono, el vapor de agua, el metano
        y el ozono son los principales gases de efecto invernadero de la atmósfera de la Tierra. Sin este efecto de retención del calor, la temperatura 
-       superficial media sería de –18 °C y la vida probablemente no existiría.</p>
+       superficial media sería de 18 °C y la vida probablemente no existiría.</p>
 <picture>
-      <source media="(max-width: 1000px)" srcset="img/340px-Full_moon_partially_obscured_by_atmosphere.jpg">
-      <source media="(min-width: 1500px)" srcset="img/640px-Full_moon_partially_obscured_by_atmosphere.jpg">
-      <img src="img/640px-Full_moon_partially_obscured_by_atmosphere.jpg" alt="Imagen de la atmósferra de la tierra">
+      <source media="(max-width: 1000px)" srcset="img/340px-Full_moon_partially_obscured_by_atmosphere.webp">
+      <source media="(min-width: 1500px)" srcset="img/640px-Full_moon_partially_obscured_by_atmosphere.webp">
+      <img src="img/640px-Full_moon_partially_obscured_by_atmosphere.webp" loading="lazy" alt="Imagen de la atmósferra de la tierra">
     </picture>
 <h2>
 Biosfera
@@ -107,26 +109,26 @@ Biosfera
     altura o en zonas extremadamente áridas son relativamente estériles de vida vegetal y animal; la diversidad de especies alcanza su máximo en tierras 
     bajas y húmedas, en latitudes ecuatoriales.
   </p>
-  <picture><source media="(max-width: 1000px)" srcset="img/Vida300.jpg">
-    <source media="(min-width: 1500px)" srcset="img/Vida600.jpg">
-    <img src="img/Vida600.jpg" alt="Mujer abriendo las manos en un acantilado"></picture>
+  <picture><source media="(max-width: 1000px)" srcset="img/Vida300.webp">
+    <source media="(min-width: 1500px)" srcset="img/Vida600.webp">
+    <img src="img/Vida600.webp" loading="lazy" alt="Mujer abriendo las manos en un acantilado"></picture>
 
     <nav>
     <h2>Otros planetas que te pueden interesar:</h2>
    <ul class= "Otros">
-    <li><a href="Mercurio.html"> <img src="img/mercurio600w.jpg" alt="Mercurio en color"/><br>Mercurio</a></li>
+    <li><a href="Mercurio.html"> <img src="img/mercurio600w.webp" loading="lazy" alt="Mercurio en color"/><br>Mercurio</a></li>
 
-    <li><a href="Venus.html"> <img src="img/venus600w.jpg" alt="Venus en color"/><br>Venus</a></li>
+    <li><a href="Venus.html"> <img src="img/venus600w.webp" loading="lazy" alt="Venus en color"/><br>Venus</a></li>
 
-    <li><a href="Marte.html"> <img src="img/marte600w.jpg" alt="Marte en color"/><br>Marte</a></li>
+    <li><a href="Marte.html"> <img src="img/marte600w.webp" loading="lazy" alt="Marte en color"/><br>Marte</a></li>
 
-    <li><a href="Jupiter.html"> <img src="img/jupiter600w.jpg" alt="Jupiter en color"/><br>Jupiter</a></li>
+    <li><a href="Jupiter.html"> <img src="img/jupiter600w.webp" loading="lazy" alt="Jupiter en color"/><br>Jupiter</a></li>
 
-    <li><a href="Saturno.html"> <img src="img/saturno600w.jpg" alt="Saturno en color"/><br>Saturno</a></li>
+    <li><a href="Saturno.html"> <img src="img/saturno600w.webp" loading="lazy" alt="Saturno en color"/><br>Saturno</a></li>
 
-    <li><a href="Urano.html"> <img src="img/urano600w.jpg" alt="Urano en color"/><br>Urano</a></li>
+    <li><a href="Urano.html"> <img src="img/urano600w.webp" loading="lazy" alt="Urano en color"/><br>Urano</a></li>
 
-    <li><a href="Neptuno.html"> <img src="img/neptuno600w.jpg" alt="Neptuno en color"/><br>Neptuno</a></li>
+    <li><a href="Neptuno.html"> <img src="img/neptuno600w.webp" loading="lazy" alt="Neptuno en color"/><br>Neptuno</a></li>
   </ul>
 </nav>
 <footer>
@@ -139,7 +141,7 @@ Biosfera
   <li><a href="Presentacion.html">Presentación</a></li>
   <li><a href="Enlaces.html">Enlaces</a></li>
 </ul>
-<img src="/img/LogoCohete.png" alt="Logo de un cohete"> 
+<img src="/img/LogoCohete.png" loading="lazy" alt="Logo de un cohete"> 
 </nav>
 <p>El texto está disponible bajo la Licencia Creative Commons y disponible en <a href= "https://es.wikipedia.org/wiki/Sistema_solar">Wikipedia</a> .</p>
 </footer>

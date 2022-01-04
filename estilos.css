@@ -12,6 +12,7 @@ body {
     padding: 25px;
     width:70%;
     font-size: large;
+    font-display: swap;
     }
     article {
     font-family: "Helvetica";
@@ -179,4 +180,5 @@ header h1 {
     
     #cohete2{
       animation: cohete2 2s linear infinite;
+      width: auto;
     }

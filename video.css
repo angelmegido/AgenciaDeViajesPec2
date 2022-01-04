@@ -7,6 +7,7 @@ body {
   background-repeat:repeat;
   padding: 25px;
   width:85%;
+  font-display: swap;
   }
 
   nav a:link, a:visited, a:active {

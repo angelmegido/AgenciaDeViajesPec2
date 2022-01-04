@@ -1,0 +1,14 @@
+{
+    "jpeg": {
+      "quality": 75,
+      "chromaSubsampling": "4:4:4"
+    },
+    "webp": {
+      "quality": 75,
+      "chromaSubsampling": "4:4:4"
+    },
+    "png": {
+      "quality": 75,
+      "chromaSubsampling": "4:4:4"
+    }
+  }
