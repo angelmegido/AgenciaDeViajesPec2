@@ -11,6 +11,7 @@ body {
     background-color:black;
     padding: 25px;
     font-display: swap;
+    font-display: swap;
         }
    
   .menu
@@ -20,6 +21,7 @@ body {
     list-style-type: none;
     font-family: "Font Awesome 5 Free";
     margin: 25px;
+    font-display: swap;
       }
   
   nav a:link, a:visited, a:active {
@@ -40,6 +42,7 @@ body {
       --min-size: 30;
       font-size: var(--responsive);
       font-family: "Font Awesome 5 Free";
+      font-display: swap;
     }
     h2{
       color: white;
@@ -47,6 +50,7 @@ body {
       --min-size: 10;
       font-size: var(--responsive);
       font-family: "Font Awesome 5 Free";
+      font-display: swap;
     }
     ul li {
       padding-bottom: 25px;
