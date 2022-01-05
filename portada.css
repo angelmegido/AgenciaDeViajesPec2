@@ -116,6 +116,8 @@ body {
 #cohete{
   animation: cohete 10s ease-in-out 0s;
   animation-delay: 1500ms;
+  max-width: 100%;
+  height: auto;
 }
 
 .animate__animated {
@@ -123,5 +125,7 @@ body {
   width: 40%;
   --animate-duration: 4s;
   animation-delay: 1500ms;
+  max-width: 100%;
+  height: auto;
   }
 

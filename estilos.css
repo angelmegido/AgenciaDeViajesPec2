@@ -185,6 +185,7 @@ header h1 {
     
     #cohete2{
       animation: cohete2 2s linear infinite;
-      width: auto;
+      max-width: 100%;
+      height: auto;    
       animation-delay: 1500ms;
     }
